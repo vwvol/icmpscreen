@@ -44,5 +44,5 @@ alias icmpscreen.py='/usr/bin/python2.7 /opt/icmpscreen.py'
 source ~/.bashrc
 ```
 ###Known issues:
-- After reducing a size of the terminal, there is the content of the first line on top out of the screen.
+- After reducing a size of the terminal, there is the content of the first line in top off screen.
 
