@@ -12,6 +12,9 @@ It much easier to know actual state of some subnet using this script,
 then using fping again and again, and much faster then waiting for
 results of your network monitoring system.
 
+Tested setup:
+Debian «Jessie» and CPython 2.7
+
 There are 2 input methods:
 - from clipboard (push Ctrl-D to start)
 - from text file (-f key)
@@ -40,3 +43,6 @@ user ALL=(ALL) NOPASSWD: /usr/bin/python2.7 /opt/icmpscreen.py
 alias icmpscreen.py='/usr/bin/python2.7 /opt/icmpscreen.py'
 source ~/.bashrc
 ```
+###Known issues:
+- After reducing a size of the terminal, there is the content of the first line on top out of the screen.
+
